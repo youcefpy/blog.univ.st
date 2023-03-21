@@ -1,0 +1,41 @@
+
+baseURL = "youcefpy.github.io/blog.univ.st.git"
+languageCode = 'en-us'
+title = 'Blog study'
+theme = "hugo-blog-awesome"
+favicon = "/icons/favicon.png"
+
+[[params.socialIcons]]
+url = "https://github.com/youcefpy"
+name = "github"
+
+
+
+[params.author]
+name = "Youcef Boutiche"
+intro = "Boutiche Yuocef"
+description = "Software engineer"
+avatar = "/img/logo.png"
+
+
+[params.homeInfoParams]
+Title = "Blog"
+content = "Bienvenue sur ce blog, vous trouverez ici des cours et séries d'algorithmique."
+
+
+[[menu.main]]
+  identifier = "series"
+  name = "Series"
+  url = "/series/"
+
+
+[[menu.main]]
+    identifier = "cours"
+    name = "Cours"
+    url ="/cours/"
+
+
+[[menu.main]]
+    idemntifuer = "Notes"
+    name = "Notes"
+    url= "/notes/"
